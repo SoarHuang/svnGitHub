@@ -11,7 +11,7 @@ HostName=aopenapm.azure-devices.net;DeviceId=SoarTestFirstNodeDev;SharedAccessKe
  var Client = require('azure-iot-device').Client;
  var Protocol = require('azure-iot-device-mqtt').Mqtt;
 
- var connectionString = 'HostName=aopenapm.azure-devices.net;DeviceId=SoarTestFirstNodeDev;SharedAccessKey=PDdUWsQRmAzd0zMNfOXxpSsdmk5vEpkbYcKQ5C40N48=';
+ var connectionString = '[device]';
  var client = Client.fromConnectionString(connectionString, Protocol);
 
  // Step 2 Start
