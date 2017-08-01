@@ -1,7 +1,7 @@
 'use strict';
  var iothub = require('azure-iothub');
  var uuid = require('node-uuid');
- var connectionString = 'HostName=aopenapm.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=fJoqs8uI7sBebUu3cuzskPuXVUNCgsjn10TKV1apUiE=';
+ var connectionString = '[iothubowner]';
  var registry = iothub.Registry.fromConnectionString(connectionString);
 
  var DeviceId = 'SoarTestFirstNodeDev';
