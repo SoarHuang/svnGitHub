@@ -1,12 +1,3 @@
-/*
-https://portal.azure.com/
-aopenkani1070@outlook.com
-@open04openmind
-
-HostName=aopenapm.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=fJoqs8uI7sBebUu3cuzskPuXVUNCgsjn10TKV1apUiE=
-HostName=aopenapm.azure-devices.net;DeviceId=SoarTestFirstNodeDev;SharedAccessKey=PDdUWsQRmAzd0zMNfOXxpSsdmk5vEpkbYcKQ5C40N48=
-*/
-
 'use strict';
  var Client = require('azure-iot-device').Client;
  var Protocol = require('azure-iot-device-mqtt').Mqtt;
